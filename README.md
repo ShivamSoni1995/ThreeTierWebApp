@@ -29,8 +29,9 @@ The application follows a standard 3-tier architecture deployed within a custom 
     * Located in separate private subnets across two AZs for high availability.
     * Uses Amazon RDS (MySQL) database instance(s).
     * Access is restricted to the Application Tier via security groups.
+![1_qtoXNNXzBKuVvxFIqCojPg](https://github.com/user-attachments/assets/0ffd504b-88f9-4852-aead-23557c94c29f)
 
-*(See the diagrams in the source document for a visual representation).*
+
 
 ## Features
 
@@ -56,7 +57,6 @@ The application follows a standard 3-tier architecture deployed within a custom 
 
 ## Setup and Deployment Steps
 
-*(Refer to the source document "Building a 3 tier web application with AWS infrastructure.pdf" for detailed, step-by-step instructions with screenshots.)*
 
 1.  **Network Foundation**:
     * Create VPC with public and private subnets across two AZs.
