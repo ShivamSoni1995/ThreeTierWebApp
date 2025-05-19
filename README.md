@@ -1,4 +1,4 @@
-# Building a 3-Tier Web Application with AWS Infrastructure
+# Building a 3-Tier Web Application on AWS Infrastructure with Terraform and Github action
 
 ## Description
 
