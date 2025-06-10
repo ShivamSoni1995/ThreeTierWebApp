@@ -17,7 +17,7 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_REGION: ap-south-1
       TERRAFORM_VER: 1.5.1 # Same as your Terraform config
-      TERRAFORM_PATH: . # this will be path to Terraform file
+      TERRAFORM_PATH: ./Terraform
       
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
